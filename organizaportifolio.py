@@ -7,7 +7,7 @@
 projetos = ["website", "jogo", "análise de dados", None, "aplicativo móvel"]
 
 for projeto in projetos:
-    if projeto == None:
+    if projeto is None:
         print('- Projeto Ausente')
         continue
     else:
